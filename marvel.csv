@@ -1,0 +1,33 @@
+id,Phase,Film,Year_Release,CinemaScore,Budget
+0,Phase One,Iron Man,2008,A,140000000
+1,Phase One,The Incredible Hulk,2008,A−,150000000
+2,Phase One,Iron Man 2,2010,A,200000000
+3,Phase One,Thor,2011,B+,150000000
+4,Phase One,Captain America: The First Avenger,2011,A−,140000000
+5,Phase One,Marvel's The Avengers,2012,A+,220000000
+6,Phase Two,Iron Man 3,2013,A,200000000
+7,Phase Two,Thor: The Dark World,2013,A−,170000000
+8,Phase Two,Captain America: The Winter Soldier,2014,A,177000000
+9,Phase Two,Guardians of the Galaxy,2014,A,170000000
+10,Phase Two,Avengers: Age of Ultron,2015,A,444000000
+11,Phase Two,Ant-Man,2015,A,130000000
+12,Phase Three,Captain America: Civil War,2016,A,250000000
+13,Phase Three,Doctor Strange,2016,A,165000000
+14,Phase Three,Guardians of the Galaxy Vol. 2,2017,A,200000000
+15,Phase Three,Spider-Man: Homecoming,2017,A,175000000
+16,Phase Three,Thor: Ragnarok,2017,A,180000000
+17,Phase Three,Black Panther,2018,A+,200000000
+18,Phase Three,Avengers: Infinity War,2018,A,400000000
+19,Phase Three,Ant-Man and the Wasp,2018,A−,162000000
+20,Phase Three,Captain Marvel,2019,A,175000000
+21,Phase Three,Avengers: Endgame,2019,A+,400000000
+22,Phase Three,Spider-Man: Far From Home,2019,A,160000000
+23,Phase Four,Black Widow,2021,A−,200000000
+24,Phase Four,Shang-Chi and the Legend of the Ten Rings,2021,A,200000000
+25,Phase Four,Eternals,2021,B,200000000
+26,Phase Four,Spider-Man: No Way Home,2021,A+,200000000
+27,Phase Four,Doctor Strange in the Multiverse of Madness,2022,B+,200000000
+28,Phase Four,Thor: Love and Thunder,2022,B+,250000000
+29,Phase Four,Black Panther: Wakanda Forever,2022,A,250000000
+30,Phase Five,Ant-Man and the Wasp: Quantumania,2023,B,200000000
+31,Phase Five,Guardians of the Galaxy Vol. 3,2023,A,250000000
