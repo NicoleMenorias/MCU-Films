@@ -57,4 +57,22 @@ def get_movies():
         df = pd.read_csv("marvel.csv")
         json_df = json.loads(df.to_json(orient="records"))
         return json_df
+
+@app.get("/random_phase/")
+def get_random_phase_movies():
+    try:
+        df = pd.read_csv("marvel.csv")
+        # Get the unique phases
+        phases = df["Phase"].unique()
+        # Pick a random phase
+        random_phase = random.choice(phases)
+        # Filter movies from the chosen phase
+        random_phase_movies = df[df["Phase"] == random_phase]
+        json_df = json.loads(random_phase_movies.to_json(orient="records"))
+        return {
+            "Random Phase": random_phase,
+            "Movies": json_df
+        }
+    except FileNotFoundError:
+        return {"msg": "The file 'marvel.csv' was not found."}
         
